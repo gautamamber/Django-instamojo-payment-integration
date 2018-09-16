@@ -1,0 +1,9 @@
+<h1>
+	Your payment form
+</h1>
+<br>
+<form action="/" method = "POST">
+	{{csrf_token}}
+	{{form.as_p}}
+	<input type="Submit" name="Submit">
+</form>
